@@ -20,6 +20,16 @@ The topics that are covered in the use case include:
 
 All use case samples are taken from [Timbr Environment](https://demo-env.timbr.ai/).
 
+### Telecommunications Use Case ERD Model
+
+![Telecommunications_ERD_Model](Telecommunications_ERD_Model.png)
+
+This ERD model describes the entity types and relationships that exist between the entities used for this telecommunications use case. The relationships in this use case include:
+* A one-to-many relationship between devices and people, representing devices owned by different people.
+* Two one-to-many relationships between calls and people, representing both those who made calls to people and those who received calls from people. 
+* Two one-to-many relationships between messages and people, representing both those who sent messages to people and those who received messages from people. 
+* A one-to-many relationship between contracts and companies, representing the different information regarding company contracts.
+
 ### Telecommunications Ontology
 Timbr’s Ontology Modeler provides a visual interface and a SQL DDL editor to easily model concepts and properties that represent the business or use-case.
 
